@@ -15,20 +15,288 @@
 		<div class="row">
 
 	<div class="col-md-3">
-		<a href=""><img src="images/logo.png" >
-			
-		</a>
+		<a href=""><img src="images/logo.png" ></a>
 
 	</div>
-	<div class="col-md-6">Menu</div>
-	<div class="col-md-3">Search</div>
+	<div class="col-md-6">
+		<nav>
+			<ul class="menu row">
+				<li><a href="">Home</a></li>
+				<li><a href="">Products<i class="fa fa-angle-down"></i></a>
 
+					<ul class="submenu">
+						<li><a href="">Lorem ipsum dolor</a></li>
+						<li><a href="">Sit amet</a></li>
+						<li><a href="">Consectetur adipisicing</a></li>
+						<li><a href="">Tempor incididunt</a></li>
+						<li><a href="">Dolore magna aliqua</a></li>
+						<li><a href="">Ut enim ad minim veniam</a></li>
+						<li><a href="">Quis nostrud</a></li>
+					</ul>
+
+
+
+				</li>
+				<li><a href="">Payment</a></li>
+				<li><a href="">Shipping</a></li>
+			</ul>
+		</nav>
+
+
+
+	</div>
+
+	<div class="col-md-3">
+
+	<div class="search">
+		<input type="text" name="q" placeholder ="search">
+		<input type="submit" value="">
+	</div>
+
+	
+
+	<div class="ShoppingCart">
+		<span id="products-count">0</span>
+		<!-- <img src="images/shopcart.png" alt=""> -->
+		<div class="shopcart">
+	</div>
+
+
+
+
+	</div>
+
+
+	
 </div>
 	</div>
 
 
 </header>
-<main class="main">Main</main>
+
+<ul id="slides">
+    <li class="slide showing">Slide 1</li>
+    <li class="slide">Slide 2</li>
+    <li class="slide">Slide 3</li>
+    <li class="slide">Slide 4</li>
+    <li class="slide">Slide 5</li>
+</ul>
+<div class="sldpre" onclick="preSlide();"></div>
+<div class="sldnext" onclick="nextSlide();"></div>
+
+
+<main class="main container">
+
+<div class="row">
+	<div class="col-md-3 sort">
+		<div class="types">DEVICE TYPE</div>
+		<div class="text1">
+		<input type = "checkbox" id = "text">
+		<label for="text"><div class = "checkname">Laptop</div></label>
+	</div>
+	<div class="text2">
+		<input type = "checkbox" id = "text2">
+		<label for="text2"><div class = "checkname">Tablet</div></label>
+	</div>
+
+	<div class="type2">COLOR</div>
+<div class="text3">
+		<input type = "checkbox" id = "text3">
+		<label for="text3"><div class = "checkname">Black</div></label>
+	</div>
+
+	<div class="text4">
+		<input type = "checkbox" id = "text4">
+		<label for="text4"><div class = "checkname">Red</div></label>
+	</div>
+
+	<div class="text5">
+		<input type = "checkbox" id = "text5">
+		<label for="text5"><div class = "checkname">Green</div></label>
+	</div>
+
+	<div class="text6">
+		<input type = "checkbox" id = "text6">
+		<label for="text6"><div class = "checkname">Blue</div></label>
+	</div>
+
+	<div class="text7">
+		<input type = "checkbox" id = "text7">
+		<label for="text7"><div class = "checkname">Orange</div></label>
+	</div>
+
+	<div class="type3">RAM</div>
+
+	<div class="text8">
+		<input type = "checkbox" id = "text8">
+		<label for="text8"><div class = "checkname">1GB</div></label>
+	</div>
+
+	<div class="text9">
+		<input type = "checkbox" id = "text9">
+		<label for="text9"><div class = "checkname">2GB</div></label>
+	</div>
+
+	<div class="text10">
+		<input type = "checkbox" id = "text10">
+		<label for="text10"><div class = "checkname">4GB</div></label>
+	</div>
+
+	<div class="text11">
+		<input type = "checkbox" id = "text11">
+		<label for="text11"><div class = "checkname">6GB</div></label>
+	</div>
+
+	<div class="text12">
+		<input type = "checkbox" id = "text12">
+		<label for="text12"><div class = "checkname">7GB</div></label>
+	</div>
+
+	<div class="more">Show more options...</div>
+
+	<button class="btntov submit">SUBMIT</button>
+
+
+	</div>
+
+	<div class="col-md-9 shop">
+		<div class="breadcrumbs">
+			<h5><a href="">Home page</a> > <a href="">Products</a> > <div class="lstcrmb"> Laptop and Tablets</div></h5>
+		</div>
+<div class="row">
+	<div class="col-md-9">
+			<div class="location">
+				<h1> Laptop and Tablets </h1>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="select">
+				<select class="rate" name="select">
+				  <option value="value1">Значение 1</option> 
+				  <option value="value2" selected>Значение 2</option>
+				  <option value="value3">Значение 3</option>
+				</select>
+		</div>
+	</div>
+</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="tov">
+					<div class="imgs">
+						<img src="images/comp.png" alt="">
+						<div class="bgimg s"></div>
+						<div class="bgimg"></div>
+					</div>
+					<h1><b>#1 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$599<sup>25</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="tov">
+					<div class="imgs"><img src="images/remote.png" alt="">
+						<div class="bgimg s"></div>
+						<div class="bgimg"></div>
+					</div>
+					<h1><b>#2 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$1250<sup>99</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="tov">
+				<div class="imgs"><img src="images/clock.png" alt="">
+					<div class="bgimg s"></div>
+					<div class="bgimg"></div>
+				</div>
+				<h1><b>#3 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$399<sup>50</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="tov">
+				<div class="imgs"><img src="images/laptop.png" alt="">
+					<div class="bgimg s"></div>
+					<div class="bgimg"></div>
+				</div>
+				<h1><b>#4 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$599<sup>25</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="tov">
+				<div class="imgs"><img src="images/player.png" alt="">
+					<div class="bgimg s"></div>
+				    <div class="bgimg"></div>
+				</div>
+				<h1><b>#5 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$1250<sup>99</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="tov">
+				<div class="imgs"><img src="images/phone.png" alt="">
+					<div class="bgimg s"></div>
+					<div class="bgimg"></div>
+				</div>
+				<h1><b>#6 Device Name</b></h1>
+					<br><h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+					<h3>TYPE: <div class="type">Laptop</div></h3>
+					<h3>SCREEN SIZE: <div class="type">7 inches</div></h3>
+					<h3>RAM: <div class="type">1 GB</div></h3>
+					<h4>$399<sup>50</sup></h4>
+					<button class="btntov detail">MORE DETAILS</button>
+					<button class="add-to-cart btntov add">ADD TO CART <img src="images/icon_add.png" alt=""></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</main>
 <footer class="footer">Footer</footer>
 
 
@@ -41,7 +309,7 @@
 
 
 
-
+<script src="app.js"></script>
 	
 </body>
 </html>
